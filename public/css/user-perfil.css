@@ -1,0 +1,44 @@
+.content-user-grid {
+    padding:1.9rem 0rem;
+    width:70vw;
+    margin:1rem 15vw;
+    display:grid;
+    grid-template-columns:34% auto ;
+}
+.editar-perfil {
+    display:flex;
+}
+.editar-perfil h2 {
+    font-size:1.7rem;
+    font-weight:300;
+}
+.info-user{
+    align-items:center;
+}
+.editar-perfil-button {
+    height:1.8rem;
+    font-weight:500;
+    font-size:0.85rem;
+    width:5.9rem;
+    border-radius:5px;
+    margin:0rem 1rem;
+    margin-top:0.2rem;
+    border:1px solid #D6D8DA;
+}
+.follows-user ul{
+    display:grid;
+    width:30vw;
+    grid-template-columns:auto auto auto;
+}
+.follows-user ul li {
+    display:flex;
+    margin-top:1.4rem;
+    text-decoration:none;
+    font-size:1rem;
+}
+.avatar {
+    margin-left:5vw;
+}
+.avatar img {
+    height:9.6rem;
+}

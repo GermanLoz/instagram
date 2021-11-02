@@ -1,0 +1,243 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family: -apple-system, BlinkSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body{
+    background:#FDFBFB;
+}
+.content{
+    margin-top:3.5rem;
+}
+.container-inicio{
+    margin-top:1rem;
+    display:grid;
+    margin-top:1rem;
+    margin-left:20vw;
+    grid-template-columns:40% 40%;
+}
+form {
+    margin-top:0.5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+form input {
+    padding-left:5px;
+    outline:none;
+    border:1px solid #DEDEDE;
+    height:2.4rem;
+    background: #F3F3F3;
+    width:280px;
+    margin:0.2rem 40px;
+}
+form input[type="submit"]{
+    background:#B1D4FA;
+    height:1.9rem;
+    border-radius:4px;
+    border:none;
+    margin-top:0.4rem;
+    font-weight:bolder;
+    font-size:14px;
+    color: #F3F3F3;
+}
+.instagram-letter {
+    height:65px;
+    margin:1.5rem 0px;
+    margin-right:14px;
+}
+.container-user {
+    text-align:center;
+    display:block;
+    height:380px;
+    width:360px;
+    margin-left:15px;
+    margin-top:2rem;
+    background:#fff;
+    border:1px solid #DEDEDE;
+}
+.iphone {
+    flex-basis: 454px;
+    height: 618px;
+    background-position: 0 0;
+    background-size: 454px 618px;
+    background-repeat:no-repeat;
+    background-image:url('../images/iphone.png');
+}
+
+/*      SEPARADOR     */
+
+.separador {
+    margin-top:2rem;
+    display:grid;
+    grid-template-columns:31% 15% 31%;
+    justify-content:center;
+}
+.separador .circle{
+    width:6.2px;
+    border:2px solid #8F9092;
+    background:#fff;
+    margin-top:-5px;
+    margin-left:1.1rem;
+    height:6px;
+    border-radius:50%;
+}
+.separador div{
+    height:1px;
+    width:auto;
+    background:#DEDEDE;
+}
+
+
+.sesion-facebook {
+    margin-top:1rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:0.9rem;
+}
+.sesion-facebook i{
+    color:#3b5998;
+    font-size:1.2rem;
+}
+.sesion-facebook p {
+    font-weight:500;
+    font-size:14.4px;
+    color:#3b5998;
+    margin-left:8px;
+    font-family: -apple-system, BlinkSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.recuperar-contraseña{
+    font-family: -apple-system, BlinkSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight:200;
+    font-size:0.8rem;
+    color:#3b5998;
+}
+
+.crear-cuenta {
+    width:360px;
+    background:#fff;
+    margin-left:15px;
+    margin-top:0.7rem;
+    align-items:center;
+    justify-content:center;
+    height:70px;   
+    border:1px solid #DEDEDE;
+    display:flex;
+}
+.crear-cuenta p {
+    font-weight:400;
+    color:#525252;
+    letter-spacing:0.4px;
+    font-size:14px;
+    font-family: -apple-system, BlinkSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.crear-cuenta a {
+    color:#4C9FED;
+    padding-left:3px;
+    font-size:15px;
+    font-family: -apple-system, BlinkSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight:bolder;
+}
+.descargar-app{
+    text-align:center;
+    width:360px;
+    margin-left:15px;
+}
+.descargar-app p{
+    font-size:14px;
+    margin:1.3rem 0rem;
+    font-family: -apple-system, BlinkSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.links-descargar-app a img{
+    height:40px;
+}
+
+/*  REGISTRO CSS  */
+
+.register{
+    padding-bottom:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.register form input::placeholder{
+    font-size:12px;
+    padding-left:2px;
+}
+.register .container-user{
+    height:auto;
+    padding-bottom:1.5rem;
+    margin-top:2.2rem;
+    margin-bottom:0.5rem;
+}
+.register > div{
+    margin:auto;
+}
+.register-p {
+    font-family: -apple-system, BlinkSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #8e8e8e;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+}
+.register .sesion-facebook { 
+    width:78%;
+    border-radius:4px;
+    padding:0.3rem 0rem;
+    margin-left:11%;
+    background:#479FF0;
+}
+.register .sesion-facebook p{ 
+    color:#fff;
+    font-size:13.5px;
+}
+.register .sesion-facebook i{ 
+    color:#fff;
+}
+.register .separador {
+    margin:1.5rem 0rem;
+}
+.register .separador .circle {
+    width:10px;
+    height:10px;
+}
+.register .container-user .instagram-letter{
+    margin:1rem 0rem 0.5rem 0rem ;   
+    height:68px;
+}
+.politicas{
+    color: #8e8e8e;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 40px;
+    text-align: center;
+    font-family: -apple-system, BlinkSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.tienes-cuenta {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:65px;
+    width:360px;
+    margin-left:15px;
+    background:#fff;
+    border:1px solid #DEDEDE;
+}
+.tienes-cuenta p{
+    color: #262626;
+    font-size: 14px;
+    margin: 5px;
+    text-align: center;
+}
+.tienes-cuenta a {
+    font-size: 15px;
+    color:#479FF0;
+    font-weight:450;
+}
+

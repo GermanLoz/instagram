@@ -1,0 +1,95 @@
+.user-button{
+    width:1.6rem;
+    height:1.6rem;
+    border-radius:50%;
+    background:#D6D8DA;
+}
+.user-button i{
+    color:#fff;
+    font-size:1.1rem;
+}
+button {
+    background:none;
+    outline:none;
+    border:none;
+}
+.input-search::placeholder{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
+.nav {
+    position:fixed;
+    top:0;
+    left:0;
+    background:#fff;
+    height:3.4rem;
+    border-bottom:1px solid #D6D8DA;
+    width:100%;
+}
+.nav img{
+    margin:1rem 0rem 0rem 15vw;
+    position:absolute;
+}
+.nav .nav-ul .links{
+    display:flex;
+    padding:1rem 15vw 0rem 0rem;
+    justify-content:right;
+}
+.nav .nav-ul .links li {
+    margin:0rem 0.7rem;
+    display:inline-block;
+}
+.search {
+    position:absolute;
+    margin-left:-155px;
+    height:2.7rem;
+    left:50%;
+    width:215px;
+    display:flex;
+}
+.search form input{
+    width:215px;
+    background:#FAFAFC;
+    border-radius:3px;
+}
+.search form input::placeholder{
+    text-align:center;
+}
+#optionsUser {
+    display:none;
+    padding:0.5rem 0rem;
+    width:230px;
+    right:14.2vw;
+    position:absolute;
+}
+#optionsUser svg {
+    display:flex;
+    position:absolute;
+}
+#optionsUser ul li a {
+    display:flex;
+    font-size:14.3px;
+    color: rgb(38, 38, 38);
+
+}
+#optionsUser ul {
+    border-radius:6px;
+    box-shadow:1px 1px 5px #D6D8DA;
+    padding:0.8rem 0rem 0.4rem 2rem;
+    background:#fff;
+}
+#optionsUser ul li{
+    display:block;
+    margin-bottom:0.6rem;
+}
+#optionsUser ul li a svg{
+    margin-left:-28px;
+    margin-top:2px;
+}
+.cerrar-sesion a{
+    width:100%;
+    margin-top:7px;
+}
+.linea {
+    margin-left:-2rem;
+    border-top:1px solid #D6D8DA;
+}
