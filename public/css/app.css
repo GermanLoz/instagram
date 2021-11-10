@@ -11,6 +11,12 @@ body{
 .content{
     margin-top:3.5rem;
 }
+
+.border-letter-black{
+    border-left:3px solid #000;
+    color:#000;
+}
+
 .container-inicio{
     margin-top:1rem;
     display:grid;

@@ -1,11 +1,17 @@
 <body>
 <link rel="stylesheet" href="{{asset('css/app.css')}}">
+<link href="{{ asset('css/inicio.css') }}" rel="stylesheet">
+
 <script src="https://kit.fontawesome.com/b90e9e4354.js" crossorigin="anonymous"></script>
 
 <article>
     <div class="container-inicio">
         <div class="container-iphone">
-            <div class="iphone"></div>
+            <div class="iphone">
+                <img src="" class="phoneimg">
+                    <img src="" class="img-background"></img>
+                </img>
+            </div>
         </div>
         <div class="user">
 
@@ -53,3 +59,4 @@
 
 </article>
 </body>
+<script src="{{ asset('js/auth/phoneimg.js') }}"></script>

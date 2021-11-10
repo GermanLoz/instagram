@@ -58,3 +58,11 @@ CREATE TABLE likes(
 
 
 INSERT INTO comments VALUES(null, 1 , 1 , 1,  CURTIME(), CURTIME() );
+
+ALTER TABLE users ADD telefono INT(255);
+
+ALTER TABLE users ADD biografia varchar(255);
+
+ALTER TABLE users ADD sitio varchar(255); 
+
+ALTER TABLE users ADD sexo varchar(255); 

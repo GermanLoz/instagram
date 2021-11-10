@@ -25,3 +25,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/configuraciones', [App\Http\Controllers\UserController::class, 'config'])->name('config');
+Route::get('/editar-perfil', [App\Http\Controllers\UserController::class, 'editarPerfil'])->name('editar-perfil');
+
+Route::post('/user/update', [App\Http\Controllers\UserController::class, 'update'])->name('user.update');
+Route::get('/user/avatar/{filename}', [App\Http\Controllers\UserController::class, 'getAvatar'])->name('user.avatar');

@@ -16,7 +16,11 @@
     align-items:center;
 }
 .editar-perfil-button {
+    color:#000;
     height:1.8rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     font-weight:500;
     font-size:0.85rem;
     width:5.9rem;
@@ -41,4 +45,123 @@
 }
 .avatar img {
     height:9.6rem;
+}
+
+/*EDITAR*/
+
+.container-editar {
+    height:auto;
+    background:#fff;
+    border-radius:8px;
+    display:grid;
+    margin-bottom:4rem;
+    grid-template-columns:235px 700px;
+    justify-content:center;
+    padding-top:1.8rem;
+}
+.container-editar div {
+    border:1px solid #DEDEDE;
+}
+.buttons button {
+    color:#000;
+    font-weight:400;
+    text-align:left;
+    height:4rem;
+    padding:0.5rem 0.2rem 0.5rem 1.5rem;
+    width:100%;
+    display:block;
+    font-size:16.3px;
+}
+.buttons button:hover {
+    background:#F3F3F3;
+    padding:0.5rem 0.2rem 0.5rem 1.38rem;
+    border-left:2px solid #DCDCDC;
+}
+.form-editar{
+    padding-bottom:1.8rem;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+.form-editar div{
+    display:grid;
+    margin-top:0.8rem;
+    grid-template-columns:20% 80%;
+    border:none;
+}
+.form-editar div p{
+    display:flex;
+    padding:2rem 0rem;
+}
+.form-editar input{
+    height:1.8rem;
+    padding-left:12px;
+    background:none;
+    font-size:15px;
+}
+.form-editar p {
+    width:49%;
+    color:#8F9092;
+    line-height:17px;
+    font-size:12px;
+    margin-left:12rem;
+    padding:1rem 0rem;
+}
+.form-editar input {
+    margin-left:3rem;
+    width:60%;
+}
+label{
+    display:flex;
+    justify-content:right;
+    text-align:right;
+    width:100px;
+    align-items:center;
+    margin-left:3.7rem;
+    font-weight:550;
+    color:#000;
+}
+.user-data-form img {
+    height:40px;
+    width:40px;
+}
+.user-data-form {
+    display:grid;
+    grid-template-columns:30% 70%;
+}
+.avatar-img-user{
+    display:flex;
+}
+.avatar-img-user img {
+    margin-left:7.5rem;
+}
+#content-avatar-changue h2 {
+    font-size:19px;
+    width:100%;
+    margin-top:-0.4rem;
+    font-weight:490;    
+}
+.changue-avatar{
+    color: #0095f6;
+    background:none;
+    border:none;
+    text-align:left;
+    font-size:14px;
+    font-weight:500;
+}
+#content-avatar-changue{ 
+    display:grid;
+    justify-content:left;
+    margin-left:3rem;
+    width:80%;
+    grid-template-columns:auto;
+}
+.submit-form{
+    margin-left:8.8rem;
+}
+.submit-form .enviar{
+    padding-left:0px;
+}
+.avatar-user{
+    border-radius:50%;
 }

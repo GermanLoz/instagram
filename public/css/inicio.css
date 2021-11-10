@@ -1,0 +1,25 @@
+.phoneimg {
+    position:relative;
+    z-index:1000;
+    float:right;
+    margin-top:6.25rem;
+    margin-right:45px;
+}
+.img-background {
+    margin-top:6.25rem;
+    margin-left:150px;
+    position:absolute;
+}
+.animantephone{
+    animation-name:desaparecer;
+    animation-duration:1s;
+    transition:ease-out;
+}
+@keyframes desaparecer {
+    from {
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}
